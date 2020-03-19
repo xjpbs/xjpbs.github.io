@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    新文档 |  ljblog
+    开源项目UnblockNeteaseMusic解锁网易云音乐灰色音乐 |  ljblog
   </title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   
@@ -32,7 +32,7 @@
   <div id="app">
     <main class="content">
       <section class="outer">
-  <article id="post-新文档" class="article article-type-post" itemscope
+  <article id="post-开源项目UnblockNeteaseMusic解锁网易云音乐灰色音乐" class="article article-type-post" itemscope
   itemprop="blogPost" data-scroll-reveal>
 
   <div class="article-inner">
@@ -40,7 +40,7 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  新文档
+  开源项目UnblockNeteaseMusic解锁网易云音乐灰色音乐
 </h1>
   
 
@@ -49,8 +49,8 @@
 
     
     <div class="article-meta">
-      <a href="/2020/03/19/%E6%96%B0%E6%96%87%E6%A1%A3/" class="article-date">
-  <time datetime="2020-03-19T02:51:31.422Z" itemprop="datePublished">2020-03-19</time>
+      <a href="/2020/03/19/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AEUnblockNeteaseMusic%E8%A7%A3%E9%94%81%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E7%81%B0%E8%89%B2%E9%9F%B3%E4%B9%90/" class="article-date">
+  <time datetime="2020-03-19T03:18:52.689Z" itemprop="datePublished">2020-03-19</time>
 </a>
       
       
@@ -60,7 +60,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">1字</span>
+            <span class="post-count">533字</span>
         </span>
     </span>
 
@@ -80,6 +80,8 @@
 
     
     
+    <div class="tocbot"></div>
+
 
 
 
@@ -94,7 +96,18 @@
       
 
       
-      <p>123456</p>
+      <p>#开源项目UnblockNeteaseMusic解锁网易云音乐灰色音乐##<br>国内音乐版权之争愈发激烈,用户苦不堪言.网易云音乐作为后起之秀版权方面实现太弱,只能一点一点变灰自己的歌单,但作为一个长期使用网易云的用户,很难放弃转用为其他平台,今天结束一款神器,能够结果网易云音乐灰色歌曲,也就是因为版权导致下架的歌曲.原理大概就是通过代理网易云请求,检测到因版权下架的音乐使用其他音源作为替代,让用户不用在单独使用其他客户端无感知聆听下架的音乐</p>
+<h2 id="项目地址"><a href="#项目地址" class="headerlink" title="项目地址"></a>项目地址</h2><p>大佬的开源项目,地址托管在github<br>Github:<a href="https://github.com/nondanee/UnblockNeteaseMusic" target="_blank" rel="noopener">https://github.com/nondanee/UnblockNeteaseMusic</a></p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>安装Nodejs，别问为啥，装就完事儿！</p>
+<p>Nodejs下载地址：<a href="http://nodejs.cn/download/" target="_blank" rel="noopener">http://nodejs.cn/download/</a></p>
+<p>根据你自己的系统选择相应下载<br><img src="https://i.imgur.com/knAvPYP.jpg" alt=""><br>使用浏览器打开项目地址<a href="https://github.com/nondanee/UnblockNeteaseMusic" target="_blank" rel="noopener">https://github.com/nondanee/UnblockNeteaseMusic</a> 手动下载到本地<br><img src="https://i.imgur.com/jpPtv4S.jpg" alt=""><br>下载完成后解压到C盘中<br><img src="https://i.imgur.com/t34NZJh.jpg" alt=""><br>Win+R 运行cmd<br><img src="https://i.imgur.com/VNRapGy.jpg" alt=""><br>执行ping music.163.com获取网易云服务器的IP<br><img src="https://i.imgur.com/x0qpGfy.jpg" alt=""><br>在UnblockNeteaseMusic-master下新建一个文本文档，把以下三条代码复制进去另存为 xx.bat（代码中端口自定义，IP修改为刚刚记录的IP）</p>
+<p>@echo off<br>cd C:\UnblockNeteaseMusic-master<br>node app.js -p 端口 -f 网易云服务器的IP<br><img src="https://i.imgur.com/PfuaNXZ.jpg" alt=""></p>
+<p>右键以管理员权限运行xx.bat即可</p>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>打开网易云配置代理,在设置-&gt;工具-&gt;代理-&gt;自定义代理，如图设置好代理。<br><img src="https://i.imgur.com/A1po7Ib.jpg" alt=""><br>重启网易云音乐客服端，去打开歌单,发现之前灰色的都不在灰色了,比如周杰伦,网易云只有很少杰伦歌曲的版权<br><img src="https://i.imgur.com/dgTzDsL.jpg" alt=""></p>
+<h2 id="设置开机启动"><a href="#设置开机启动" class="headerlink" title="设置开机启动"></a>设置开机启动</h2><p>在UnblockNeteaseMusic-master文件夹下新建一个文本文档，把以下代码复制进去另存为 xx.vbs</p>
+<p>Set ws = CreateObject(“Wscript.Shell”)<br>ws.run “cmd /c xx.bat”,vbhide<br><img src="https://i.imgur.com/EIaGGvV.jpg" alt=""></p>
+<p>将vbs创建快捷方式放到自启文件夹（C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp）即可开机自启动</p>
+<p><img src="https://i.imgur.com/R0n5nQW.jpg" alt=""></p>
 
       
       <!-- reward -->
@@ -164,7 +177,7 @@
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://yoursite.com/2020/03/19/%E6%96%B0%E6%96%87%E6%A1%A3/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://yoursite.com/2020/03/19/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AEUnblockNeteaseMusic%E8%A7%A3%E9%94%81%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E7%81%B0%E8%89%B2%E9%9F%B3%E4%B9%90/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -180,19 +193,10 @@
   
   <nav class="article-nav">
     
+    
       <a href="/2020/03/19/newpapername/" class="article-nav-link">
-        <strong class="article-nav-caption">上一篇</strong>
-        <div class="article-nav-title">
-          
-            newpapername
-          
-        </div>
-      </a>
-    
-    
-      <a href="/2020/03/19/hello-world/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">Hello World</div>
+        <div class="article-nav-title">newpapername</div>
       </a>
     
   </nav>
